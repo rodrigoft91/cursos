@@ -1,0 +1,43 @@
+body{
+
+    background-color: rgb(18, 83, 92);    
+    margin: 0px;
+    font: normal 15pt  Arial;
+
+}
+
+
+header{
+
+    text-align: center;
+    color: white;
+
+
+}
+
+footer{
+
+    text-align: center;
+    color: white;
+    font-style: italic;
+
+
+
+}
+
+section{
+
+    background-color: white;
+    margin: auto;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+
+}
+
+
+/* Classes */
+
+.

@@ -1,0 +1,125 @@
+@font-face {
+
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body{
+
+    background-color: #bcbcbc;
+    font-family: 'Montserrat', 'icones', sans-serif;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+.cabecalho{
+
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    color: #FFFFFF;
+}
+
+.logo__menu{
+    width: 45px;
+}
+
+.botao__menu i::before{
+
+    content: "\e904";
+    font-size: 26px;
+}
+
+.botao__notificacao i::before{
+
+    content: "\e906";
+    font-size: 26px;
+
+}
+
+.menu-lateral{
+
+    background-color: #000000;    
+    box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 100vh;
+    color: #bcbcbc;
+    position: absolute;
+    left: -100vw;
+    
+}
+
+.menu-lateral--ativo{
+
+    left: 0;
+    transition: .30s;
+
+
+}
+
+.logo__lateral{
+
+    width: 100px;
+    align-self: center;
+    padding: 20px;
+    
+}
+
+.menu__link{
+
+    height: 64px;
+    padding-left: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__link:active{
+
+    color: #ffffff;
+    border-left: 8px solid #ffffff;
+    padding-left: 56px;
+
+}
+
+.menu__link:hover{
+
+    color: #ffffff;
+    border-left: 8px solid #ffffff;
+    padding-left: 56px;
+
+    
+}
+.menu__link::before{
+
+    left: 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    font-size: 24px;
+    
+}
+
+.menu__link--inicio::before{
+
+    content: "\e902";
+    
+
+}
+
+.menu__link--produtos::before{
+
+    content: "\e900";
+
+}
+
+.menu__link--contato::before{
+    
+    content: "\e909";
+
+
+}
