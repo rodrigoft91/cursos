@@ -10,43 +10,47 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/principal.css">
+
+    <link rel="stylesheet" href="./assets/font-awesome/css/all.min.css">
+
     <title>HZC | HOME</title>
 
 </head>
 
 <body>
     <header class="cabecalho">
-        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+        <button class="cabecalho__menu" aria-label="Menu"><i class="fa-solid fa-bars icone__cabecalho"></i></button>
         <img src="./assets/img/logo.svg" alt="Logotipo da HZC" class="cabecalho__logo">
-        <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
+        <button class="cabecalho__notificacao" aria-label="Notificação"><i class="fa-regular fa-bell icone__cabecalho"></i></button>
     </header>
 
     <nav class="menu-lateral menu-lateral--ativo">
         <img src="./assets/img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
-        <a href="#" class="menu-lateral__link menu-lateral__link--inicio" >Inicio</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--videos">Vídeos</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--picos">Picos</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
+        <a href="#" class="menu-lateral__link "><i class="fa-solid fa-house-chimney icone_visualizacao"></i>Inicio</a>
+        <a href="#" class="menu-lateral__link "><i class="fa-solid fa-video icone_visualizacao"></i>Vídeos</a>
+        <a href="#" class="menu-lateral__link "><i class="fa-solid fa-person-biking icone_visualizacao"></i>Picos</a>
+        <a href="#" class="menu-lateral__link "><i class="fa-solid fa-people-group icone_visualizacao"></i>Integrantes</a>
+        <a href="#" class="menu-lateral__link "><i class="fa-solid fa-shirt icone_visualizacao"></i>Camisas</a>
+        <a href="#" class="menu-lateral__link "><i class="fa-solid fa-palette icone_visualizacao"></i>Pinturas</a>
 
     </nav>
 
 
-    
+
     <main class="principal">
         <h2 class="titulo-principal">Início</h2>
-        <article>
+        <article class="cartao">
             <img src="./assets/img/banner-mobile_1.png" alt="Banner do cartão" class="cartao__imagem">
-            <div>
+            <div class="cartao-conteudo">
                 <p class="cartao__destaque"> Vídeo em destaque</p>
-                <h3 class="cartao__titulo">HZC Titulo</h3>
+                <h3 class="cartao__titulo">HZC - Life is / 2021</h3>
                 <p class="cartao__perfil">Rodrigo França</p>
-                <p class="cartao_info cart__info--tempo">33 minutos</p>
-                <p class="cartao_info cart__info--visualizações">33 visualizações</p>
-                <button class="cartao__botao cartao__botao--play cartao__botao--destaque">
 
-                </button>
+                <div class="visualizacao">
+                    <p class="cartao__info icone_visualizacao"><i class="fa-solid fa-circle-play icone_visualizacao"></i>33 minutos</p>
+                    <p class="cartao__info icone_visualizacao "><i class="fa-solid fa-eye icone_visualizacao"></i>33 visualizações</p>
+                </div>
+                <button class="cartao__botao "><i class="fa-solid fa-play icone_visualizacao"></i>Assitir agora</button>
             </div>
         </article>
 
