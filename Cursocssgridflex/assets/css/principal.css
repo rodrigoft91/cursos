@@ -43,6 +43,7 @@ body {
 }
 
 .menu-lateral {
+    
     display: flex;
     flex-direction: column;
     background-color: #15191C;
