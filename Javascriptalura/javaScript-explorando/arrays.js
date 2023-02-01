@@ -9,7 +9,11 @@ console.log("Destinos Possíveis");
 console.log(salvador, saoPaulo, rioDeJaneiro);
  */
 
-const listaDeDestinos = new Array(`Salvador`, `São Paulo`, `Rio de Janeiro`, `Curitiba`);
+const listaDeDestinos = new Array(`Salvador`,
+ `São Paulo`,
+ `Rio de Janeiro`,
+ `Curitiba`
+);
 
 console.log(listaDeDestinos);
 
@@ -20,6 +24,12 @@ console.log(listaDeDestinos);
 listaDeDestinos.splice(4, 1)
 
 console.log(listaDeDestinos);
+
+listaDeDestinos.push(`Bahia`, `Minas Gerais`, `Rio grande do Sul`);
+
+console.log(listaDeDestinos);
+
+
 
 
 
